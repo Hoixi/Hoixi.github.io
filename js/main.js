@@ -3,6 +3,7 @@ $(document).ready(function(){
         let placeholder = document.querySelector("#data-output");
         let out = "";
         for(let datas of data) {
+            if(datas.Durum != "Çözüldü") {            
             out += `
             <tr>
             <td>${datas.İsim}</td>
@@ -11,7 +12,7 @@ $(document).ready(function(){
             <td>${datas.Adres}</td>
             <td>${datas.Durum}</td>
             </tr>
-            `;
+            `;}
         }
 
         placeholder.innerHTML = out;
