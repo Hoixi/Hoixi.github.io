@@ -3,7 +3,7 @@ $(document).ready(function(){
         let placeholder = document.querySelector("#data-output");
         let out = "";
         for(let datas of data) {
-            out = `
+            out += `
             <tr>
             <td>${datas.İsim}</td>
             <td>${datas.İsim}</td>
