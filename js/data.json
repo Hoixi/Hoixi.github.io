@@ -1,14 +1,14 @@
 [{
-    "İsim":"Test",
-    "Soyisim":"Test",
-    "Tel":"Test",
-    "Adres":"Test Sokak Test Mahalle Test/Test",
-    "Durum":"Test"
+    "İsim":"",
+    "Soyisim":"",
+    "Tel":"",
+    "Adres":"Kahramanmaraş Sakarya mahallesi 5 nisan ortaokul etrafı",
+    "Durum":"Acil Yardım"
 },
 {
-    "İsim":"Test",
-    "Soyisim":"Test",
+    "İsim":"Fatih",
+    "Soyisim":"Sarıgül",
     "Tel":"Test",
-    "Adres":"Test Sokak Test Mahalle Test/Test",
+    "Adres":"Adıyaman/Merkez Turgut reis mah. Zey cad. No 40 zombaba cami karsisi bina",
     "Durum":"Test"
 }]
