@@ -6,10 +6,10 @@ $(document).ready(function(){
             out += `
             <tr>
             <td>${datas.İsim}</td>
-            <td>${datas.İsim}</td>
-            <td>${datas.İsim}</td>
-            <td>${datas.İsim}</td>
-            <td>${datas.İsim}</td>
+            <td>${datas.Soyisim}</td>
+            <td>${datas.Tel}</td>
+            <td>${datas.Adres}</td>
+            <td>${datas.Durum}</td>
             </tr>
             `;
         }
@@ -19,3 +19,4 @@ $(document).ready(function(){
         console.log("An error has occurred.");
     });
 });
+
