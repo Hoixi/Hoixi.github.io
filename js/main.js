@@ -1,7 +1,20 @@
 $(document).ready(function(){
-    $.getJSON("js/data.json", function(data){
-        console.log(data.isim); // Prints: Harry
-        console.log(data.soyisim); // Prints: 14
+    $.getJSON("https://hoixi.github.io/js/data.json", function(data){
+        let placeholder = document.querySelector("#data-output");
+        let out = "";
+        for(let datas of data) {
+            out = `
+            <tr>
+            <td>${datas.İsim}</td>
+            <td>${datas.İsim}</td>
+            <td>${datas.İsim}</td>
+            <td>${datas.İsim}</td>
+            <td>${datas.İsim}</td>
+            </tr>
+            `;
+        }
+
+        placeholder.innerHTML = out;
     }).fail(function(){
         console.log("An error has occurred.");
     });
